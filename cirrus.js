@@ -28,6 +28,8 @@ wss.on('connection', function connection(ws) {
 					break;
 				case 'FILE':
 					webSockets.forEach((element, key) => {
+						console.log("Check1:"+key);
+						console.log("Check2:"+ws._socket.remoteAddress);
 						if(key !== ws._socket.remoteAddress){
 							element.send(message);
 						}
