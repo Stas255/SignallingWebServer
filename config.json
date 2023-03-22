@@ -12,5 +12,6 @@
 	"PublicIp": "localhost",
 	"HttpPort": 80,
 	"HttpsPort": 443,
-	"StreamerPort": 8888
+	"StreamerPort": 8888,
+	"peerConnectionOptions": "{\"iceServers\":[{\"urls\":[\"stun: 13.53.61.7:443\",\"turn: 13.53.61.7:443\"],\"username\":\"username1\",\"credential\":\"password1\"}]}"
 }
