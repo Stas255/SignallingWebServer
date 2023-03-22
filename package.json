@@ -8,12 +8,15 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "bson": "^5.1.0",
+    "buffer": "^6.0.3",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
+    "filereader": "^0.10.3",
     "helmet": "^3.21.3",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "ws": "^7.1.2",
+    "ws": "^7.5.9",
     "y18n": "^5.0.5",
     "yargs": "^15.3.0"
   }
